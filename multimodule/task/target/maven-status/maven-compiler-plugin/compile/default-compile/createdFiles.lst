@@ -1,0 +1,3 @@
+org/demo/task/TaskApplication.class
+org/demo/task/web/controller/TaskController.class
+org/demo/task/repositories/TaskRepository.class

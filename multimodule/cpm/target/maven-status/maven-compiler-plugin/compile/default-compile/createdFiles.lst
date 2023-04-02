@@ -1,0 +1,6 @@
+org/demo/cpm/CpmApplication.class
+org/demo/cpm/repositories/CriticalPathRepository.class
+org/demo/cpm/services/TaskService.class
+org/demo/cpm/services/TaskServiceImpl.class
+org/demo/cpm/services/TaskServiceImpl$1.class
+org/demo/cpm/web/controller/CalculationController.class
