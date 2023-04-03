@@ -92,10 +92,6 @@ public class TaskServiceImpl implements TaskService {
         criticalPathRepositoryService.saveAll(criticalPathDtoList);
     }
 
-    private Optional<List<String>> getDependencyList(String id) {
-        Optional<TaskDto> taskDto = taskRepositoryService.findById(id);
-        return Optional.ofNullable(taskDto.get().getDependentTaskId());
-    }
 
     private void calculateForwardPass(List<TaskDto> taskDtoList) {
         for (TaskDto taskDto:taskDtoList) {
